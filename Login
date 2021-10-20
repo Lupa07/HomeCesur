@@ -13,7 +13,7 @@
 <body>
 
     <h1>LOGIN</h1>
-
+    <p>hola</p>
     <div>
         <p>Inicio de sesion</p>
         <form action="/action_page.php" method="get">
