@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        body{
+            background-color:lightskyblue
+            ;
+        }
+        h1{
+            background-color: blue;
+            color:white;
+        }
+        div{
+            background-color:cyan;
+            text-align: center;
+        }
+
+    </style>
+
+    <script>
+
+        function pruebaemail (valor){
+            re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+            if(!re.exec(valor)){
+                alert('email no valido');
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>LOGIN</h1>
+    <div>
+        <p>Inicio de sesion</p>
+        <form>
+            <label for="username">Email:</label>
+            <input type="text" id="correo" name="correo" placeholder="Email" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required><br><br>
+            <input type="submit" value="Submit" onClick="pruebaemail(correo.value);">
+        </form>
+
+    </div>
+    
+</body>
+
+</html>
