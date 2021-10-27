@@ -5,7 +5,7 @@
 }
 
 :root{
-    --azul-color: blue;
+    --azul-color: rgb(58, 84, 228);
 }
 
 
@@ -25,63 +25,38 @@ header{
     top: 5px;
     left: 10px;
     width: 70px;
-
-
 }
 
-section{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+div{
+   float: left;
+    padding:2%;
+    margin-left: 15%;
+    padding-left: 4%;
     
+    margin-top: 3%;
 }
 
-nav h2 {
-    font-size: 1.5rem;
+h2{
+    font-size: 1.8rem;
 }
 
-nav ul li a {
-    font-size: 1.4rem;
-    text-decoration: none;
-    color: black;
+li{
+    font-size: 1.2rem;
 }
 
-nav ul li {
-    padding: 5px;
-    list-style-type: none;
-}
-
-nav ul li a:hover{
-    color: var(--azul-color);
-}
-
-main {
+img.cuerpo {
+   
+    min-width: 700px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 10%;
     width: 50%;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+   
 }
 
-aside {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-}
-
-main img {
-    width: 80%;
-}
-
-aside img {
-    width: 40%;
+p{
+    clear: both;
 }
 
 footer{
@@ -96,4 +71,12 @@ footer{
 
 h1{
     color: white
+}
+
+#noticias{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
 }
