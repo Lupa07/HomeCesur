@@ -1,3 +1,22 @@
+*{
+    background-color: rgb(81, 149, 216);
+}
+img{
+    margin-left: 25%;
+    
+}
+#register{
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 11px;
+    border-style: ridge;
+    border-width: 3px;
+    margin-left: 35%;
+    border-color: firebrick;
+    box-sizing:border-box;
+   
+    border-radius: 50px;
+}
 .logo{
     align-items: center;
 }
