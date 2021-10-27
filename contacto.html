@@ -6,15 +6,21 @@
     <title>Actividad 5</title>
 
     <link rel="stylesheet" href="contacto.css">
+    <script src="contacto.js"></script>
 </head>
 
 <body>
 
+    <img src="/img/logo.png">
+    <div>
+        <h1 class="titulo">Contacta con nosotros</h1>
+    </div>
+
     
 
-    <div>
+    <div class="disenoform">
 
-    <img src=""
+    
     <form class="formulario">
 
         
@@ -27,11 +33,8 @@
         </p>
 
         <p>
-            <label for="email" class="colocar_email">Email
-
-            </label>
-            <input type="email" name="introducir_email" id="email" required="obligatorio"
-                placeholder="Escribe tu Email">
+            <label for="username">Email:</label>
+            <input type="text" id="correo" name="correo" placeholder="Email" required>
         </p>
 
         <p>
@@ -43,7 +46,7 @@
         <p>
             <label for="website" class="colocar_website">Sitio web
             </label>
-            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+            <input type="text" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
         </p>
 
         <p>
@@ -62,15 +65,31 @@
                 placeholder="Deja aquí tu comentario..."></textarea>
         </p>
 
-        <button type="submit" name="enviar_formulario" id="enviar">
-            <p>Enviar</p>
-        </button>
+        <input type="submit" value="Submit" onclick="pruebaemail()">
+    </input>
 
         
 
     </form>
 
 </div>
+
+
+<footer>Todos los derechos reservados &copy;</footer>
+
+
+<script>
+
+/*function pruebaemail (valor){
+    re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+    if(!re.exec(valor)){
+        alert('email no valido');
+    }
+}*/
+
+    
+
+</script>
 
 </body>
 
