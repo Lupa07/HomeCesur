@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cssregistro.css" type="text/css" media="all" />
-    
+    <script src="registro.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -13,26 +13,26 @@
         <img class="logo" src="logo_cesur.png">
     </header>
     <div id="register" class="form">
-        <form  action="mysuperscript.php" autocomplete="on"> 
+        <form  > 
           <h1 style="text-align: center;"> Registro</h1> 
           <p> 
               <label for="usernamesignup" class="uname" >Tu nombre</label>
-              <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Nombre" />
+              <input id="usernamesignup" name="usernamesignup"  type="text" placeholder="Nombre" />
           </p>
           <p> 
               <label for="emailsignup" class="youmail" > Tu email</label>
-              <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="ejemplo@mail.com"/> 
+              <input id="emailsignup" name="emailsignup"  type="text" placeholder="ejemplo@mail.com"/> 
           </p>
           <p> 
               <label for="passwordsignup" class="youpasswd" >Tu password </label>
-              <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+              <input id="passwordsignup" name="passwordsignup"  type="password" placeholder="eg. X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
           </p>
           <p> 
               <label for="passwordsignup_confirm" class="youpasswd" >Confirma tu password </label>
-              <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+              <input id="passwordsignup_confirm" name="passwordsignup_confirm" type="password" placeholder="eg. X8df!90EO"/>
           </p>
           <p class="signin button"> 
-              <input type="submit" value="Registro"/> 
+              <input type="submit" value="Registro" onclick="validaNombre(); pruebaemail()"/> 
           </p>
           <p class="change_link">  
               Ya eres miembro
