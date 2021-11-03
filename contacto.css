@@ -1,6 +1,40 @@
 /* css contacto*/
+body{
+     
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+}
+.logo{
+    align-items: center;
+    
+    border-color: rgb(34, 96, 178);;
+    margin-left: 33%;
+    width: 35%;
+    height: 35%;
+    border-radius: 50px;
+    opacity: 0.7;
+}
 
-
+.formulario {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
 
 .disenoform{
     border: 1px solid rgb(34, 96, 178);
@@ -11,6 +45,7 @@
     border-radius: 50px;
     font-size: large;
     font-weight: bold;
+    opacity: 0.8;
 
 }
 
