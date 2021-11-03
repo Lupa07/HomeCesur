@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 5</title>
+
+    <link rel="stylesheet" href="contacto.css">
+    <script src="contacto.js"></script>
+</head>
+
+<body>
+
+    <img src="logo_cesur.png">
+    <div>
+        <h1 class="titulo">Contacta con nosotros</h1>
+    </div>
+
+    
+
+    <div class="disenoform">
+
+    
+    <form class="formulario">
+
+        
+        <p>
+            <label for="nombre" class="colocar_nombre">Nombre
+
+            </label>
+            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                placeholder="Escribe tu nombre">
+        </p>
+
+        <p>
+            <label for="username">Email:</label>
+            <input type="text" id="correo" name="correo" placeholder="Email" required>
+        </p>
+
+        <p>
+            <label for="telefone" class="colocar_telefono">Teléfono
+            </label>
+            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+        </p>
+
+        <p>
+            <label for="website" class="colocar_website">Sitio web
+            </label>
+            <input type="text" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+        </p>
+
+        <p>
+            <label for="asunto" class="colocar_asunto">Asunto
+               
+            </label>
+            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                placeholder="Escribe un asunto">
+        </p>
+
+        <p>
+            <label for="mensaje" class="colocar_mensaje">Mensaje
+               
+            </label>
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                placeholder="Deja aquí tu comentario..."></textarea>
+        </p>
+
+        <input type="submit" value="Submit" onclick="pruebaemail()">
+    </input>
+
+        
+
+    </form>
+
+</div>
+
+
+<footer>Todos los derechos reservados &copy;</footer>
+
+
+<script>
+
+/*function pruebaemail (valor){
+    re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+    if(!re.exec(valor)){
+        alert('email no valido');
+    }
+}*/
+
+    
+
+</script>
+
+</body>
+
+
+
+</html>
