@@ -1,7 +1,7 @@
 
-var usuario = document.getElementById("usernamesignup").value;
+
 function validaNombre(usuario){
-   
+   var usuario = document.getElementById("usernamesignup").value;
         if(usuario ==null) {
 
 
@@ -9,9 +9,10 @@ function validaNombre(usuario){
           
         }
 }
-var valor=document.getElementById("emailsignup").value;
+
 
 function pruebaemail(valor){
+   var valor=document.getElementById("emailsignup").value;
 
   let expresion=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
   let correo=document.getElementById('emailsignup');
