@@ -25,14 +25,16 @@
           </p>
           <p> 
               <label for="passwordsignup" class="youpasswd" >Tu password </label>
-              <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+
+              <input id="passwordsignup" name="passwordsignup"  type="password" placeholder="ej. X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
           </p>
           <p> 
               <label for="passwordsignup_confirm" class="youpasswd" >Confirma tu password </label>
-              <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+              <input id="passwordsignup_confirm" name="passwordsignup_confirm" type="password" placeholder="ej. X8df!90EO"/>
           </p>
           <p class="signin button"> 
-              <input type="submit" value="Registro"/> 
+              <input type="submit" value="Registro" onclick="validaNombre(); pruebaemail();verificaContra()"/> 
+
           </p>
           <p class="change_link">  
               Ya eres miembro
