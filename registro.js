@@ -1,7 +1,10 @@
+
 var usuario = document.getElementById("usernamesignup").value;
 function validaNombre(usuario){
    
         if(usuario ==null) {
+
+
           alert('No has escrito nada en el usuario');
           
         }
@@ -9,6 +12,7 @@ function validaNombre(usuario){
 var valor=document.getElementById("emailsignup").value;
 
 function pruebaemail(valor){
+
   let expresion=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
   let correo=document.getElementById('emailsignup');
   if(!expresion.exec(valor)){
@@ -20,6 +24,7 @@ function pruebaemail(valor){
    
   }
 }
+
 
 function Fcontraseña(){
   var p1 = document.getElementById("contrasena1").value;
@@ -40,5 +45,5 @@ function Fcontraseña(){
         return true; 
       }
       
- }
 
+ }
