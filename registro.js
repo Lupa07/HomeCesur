@@ -1,7 +1,10 @@
+
 var usuario = document.getElementById("usernamesignup").value;
 function validaNombre(usuario){
    
         if(usuario ==null) {
+
+
           alert('No has escrito nada en el usuario');
           
         }
@@ -20,6 +23,7 @@ function pruebaemail(valor){
    
   }
 }
+
 
 function Fcontraseña(){
   var p1 = document.getElementById("contrasena1").value;
@@ -40,5 +44,4 @@ function Fcontraseña(){
         return true; 
       }
       
- }
-
+    }
