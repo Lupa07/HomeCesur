@@ -8,10 +8,25 @@
 Los colores utilizados son los identificativos de la marca (Azul: rgb(34,96,178),Amarillo: rgb(245, 245, 5), Blanco: rgb(255, 255, 255)).
 Todas las paginas contarán con un "footer".
 
+  Actualizacion de estilo:
+    La web en la pagina de HOME podrá presentar cualquier tipo de apariencia ya que el cliente no ha cumplido con las exigencias para trabajar con nosotros, por consiguiente, la guia de estilos queda anulada y cualquier modificacion de la misma podrá hacerse sin consulta alguna sobre los creadores.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *HOME*
 #Realizamos una web para la contratacion de cursos de Cesur, en la cual se observa los enlaces a diferentes zonas de nuestro sitio web. En la primera fila podremos observar los cursos destacados del centro y desplazando el raton sobre ellos podremos ver su precio y solicitar mas información.
 En la segunda linea encontramos las nuevas ofertas que nuestro cliente quiera indicar y de la misma manera que la linea anterior, pasando el ratón sobre la imagen aparecerá el precio y el boton de solicitud.
+
+  Actualizacion:
+  Se han implementado todas las pautas designadas en la practica, se ha creado un logo e introducido el cual incluye una animacion con transform .
+  Se ha implementado un video corto y otro largo con el preload en el video largo con los controles personalizados, ademas de implementar un reproductor de audio.
+  La imagen de fondo ha sido seleccionada de la herramienta de busqueda de Google Imagenes con la configuracion de imagenes "Licencia CC".
+  Se ha reducido la imagen de "cocina" con la herramienta online compresor.io, el cual redujo la imagen de 14kb a 13 kb.
+  En el apartado de nuevos cursos se ha aplicado un estilo a las imagenes modificando su "border-radius".
+  Se ha implementado un "dialog" pero no de la manera correcta ya que no entendia bien que tenia que hacer el mismo.
+  Se han implementado trnasiciones mediante steps().
+  Se ha actualizado la guia de estilos.
+  
+  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *Login*
