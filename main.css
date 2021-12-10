@@ -26,14 +26,31 @@ nav{
     
      
 }
-
+#logolupa{
+    
+            width: 100px;
+            height: 100px;
+            background: none;
+            transition: width 2s, height 2s, transform steps(15);
+        }
+#logolupa:hover{
+            width: 150px;
+            height:150px;
+            transform:rotate(360deg) scale(0.4,0.4);
+          -webkit-transform:rotate(360deg) scale(0.4,0.4);
+          -o-transform:rotate(360deg) scale(0.4,0.4);	
+            
+        }
 
 .navbar{
     position: sticky;
     top: 0px;
  
 }
-
+#imagenEstilo{
+    border-radius: 20px;
+    border: 5px solid rgb(248, 232, 4);
+}
 nav>ul{ /*solo afecta al ul directamente hijo del nav*/
     list-style: none;
     padding: 0;
@@ -73,7 +90,7 @@ nav>ul li a:hover{
 /*main*/
 
 body{
-    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(fondo-contacto.jpg);
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(nuevofondo.png);
     background-repeat: no-repeat;
     
     background-size: cover;
@@ -110,7 +127,32 @@ section{
     left: 5%;
     
 }
+.carrusel {
+            margin-top: 50px;
+            background-image: url("asir.jpg");
+            background-repeat: no-repeat;
+            width: 150px;
+            height: 150px;
+            float: left;
+            padding-top: 10px;
+            transform-style: preserve-3d;
+            animation: carrusel 10s infinite cubic-bezier(1, 0.015, 0.295, 1.225) forwards;
 
+        }
+
+        @keyframes carrusel {
+            from {
+                width: 300px;
+                height: 200px;
+                background-image: url("asir.jpg");
+            }
+
+            to {
+                width: 200px;
+                height: 200px;
+                background-image: url("logocesur.png");
+            }
+        }
 .imageprod {
     
     display: block;
@@ -200,7 +242,9 @@ section{
     clear: both;
     text-shadow: 2px 2px #b9dbf2; /*efecto de sombra al texto*/
 }
-
+#cocina{
+    margin-left: auto;
+}
 
 footer{
     bottom: 0;
