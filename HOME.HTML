@@ -77,8 +77,12 @@
             </div>
 
             <div class="productosNuevos">
+
                 <div class="titNuevos">Nuevos Cursos</div>
                 <dialog id='dialogo'>
+                    <p>
+                        <button onclick="document.getElementById('dialogo').close();">Cerrar</button>
+                    </p>
                     <div class="containertext">
                         <img class="imageprod2" id="imagenEstilo" src="dj.jpg">
                         <div class="inside">
@@ -93,21 +97,21 @@
                             <div class="textprod">Solicitar</div>
                         </div>
                     </div>
-                    <p align="right">
-                        <button onclick="document.getElementById('dialogo').close();">Cerrar</button>
-                    </p>
-                </dialog>
-                <p align="right">
-                    <button class="botonabrir" onclick="document.getElementById('dialogo').show();">Abrir</button>
-                </p>
-
-                <div id="cocina" class="containertext">
-                    <img class="imageprod2" id="imagenEstilo" src="cocinareducida.jpg">
-                    <div class="inside">
-                        <div class="price">3.000€</div>
-                        <div class="textprod">Solicitar</div>
+                    <div id="cocina" class="containertext">
+                        <img class="imageprod2" id="imagenEstilo" src="cocinareducida.jpg">
+                        <div class="inside">
+                            <div class="price">3.000€</div>
+                            <div class="textprod">Solicitar</div>
+                        </div>
                     </div>
+                    
+                    
+
+                </dialog>
+                <div style="text-align: center;">
+                    <button class="botonabrir" onclick="document.getElementById('dialogo').show();">Abrir</button>   
                 </div>
+
 
 
             </div>
