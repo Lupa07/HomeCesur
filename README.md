@@ -22,7 +22,7 @@ En la segunda linea encontramos las nuevas ofertas que nuestro cliente quiera in
   La imagen de fondo ha sido seleccionada de la herramienta de busqueda de Google Imagenes con la configuracion de imagenes "Licencia CC".
   Se ha reducido la imagen de "cocina" con la herramienta online compresor.io, el cual redujo la imagen de 14kb a 13 kb.
   En el apartado de nuevos cursos se ha aplicado un estilo a las imagenes modificando su "border-radius".
-  Se ha implementado un "dialog" pero no de la manera correcta ya que no entendia bien que tenia que hacer el mismo.
+  Se ha implementado un "dialog" el cual cubre todo el contenido de la pagina al desplegarse.
   Se han implementado trnasiciones mediante steps().
   Se ha actualizado la guia de estilos.
   
