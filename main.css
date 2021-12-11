@@ -42,6 +42,11 @@ nav{
             
         }
 
+#dialogo{
+    width: 1800px;
+    height:900px;
+}
+
 .navbar{
     position: sticky;
     top: 0px;
